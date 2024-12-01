@@ -108,6 +108,28 @@
   transition: color 500ms linear, background-color 500ms linear;
 }
 
+.catlogs_list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.catalogs_ref {
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(44, 9, 37);
+  font-weight: 700;
+  border: 3px solid #a0a622;
+  padding: 15px;
+  background: #5f989e;
+  transition: color 500ms linear, background-color 500ms linear;
+}
+
+.catalogs_ref:hover {
+  color: rgb(149, 157, 181);
+  background-color: #2f3a3b;
+}
+
 .articles_ref:hover {
   color: rgb(73, 77, 135);
   background-color: #9fadae;
