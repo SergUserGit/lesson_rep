@@ -91,6 +91,28 @@
   background: linear-gradient(rgb(139, 139, 176), rgb(97, 194, 203));
 }
 
+.articles_list {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.articles_ref {
+  text-decoration: none;
+  font-size: 24px;
+  color: #874982;
+  font-weight: 700;
+  border: 3px solid #794e86;
+  padding: 15px;
+  background-color: rgb(212, 228, 228);
+  transition: color 500ms linear, background-color 500ms linear;
+}
+
+.articles_ref:hover {
+  color: rgb(73, 77, 135);
+  background-color: #9fadae;
+}
+
 .astrology-title {
   color: rgb(187, 58, 159);
   margin: 0;
