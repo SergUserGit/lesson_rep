@@ -1,0 +1,196 @@
+.gallery_img {
+  width: 250px;
+  height: 250px;
+}
+
+.gallery-li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.title-ref {
+  text-decoration: none;
+  color: blue;
+  font-weight: 700;
+  font-size: 20px;
+  transition: color 300ms linear;
+}
+
+.gallery-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-ref:hover {
+  color: red;
+}
+
+.gallery-list .gallery_img {
+  transition: width 300ms linear;
+  transition: height 300ms linear;
+}
+
+.gallery-list .gallery_img:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 150px;
+  border: 3px solid #46615f;
+  padding: 15px;
+  background-color: aquamarine;
+  cursor: pointer;
+  transition: background-color 300ms linear, border-radius 500ms linear;
+}
+
+.nav-list:hover {
+  background-color: #dfe6e7;
+  border-radius: 20px;
+}
+
+.nav-ref {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #46615f;
+  transition: color 300ms linear, font-size 300ms linear;
+}
+
+.nav-ref:hover {
+  color: rgb(68, 11, 41);
+  font-size: 24px;
+}
+
+.astrology-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 100px 320px 1fr;
+  column-gap: 650px;
+  row-gap: 50px;
+  justify-items: center;
+  border: 3px solid #46615f;
+  padding: 10px;
+  margin-bottom: 50px;
+  background: linear-gradient(rgb(139, 139, 176), rgb(97, 194, 203));
+}
+
+.astrology-title {
+  color: rgb(187, 58, 159);
+  margin: 0;
+}
+
+.astrology-span {
+  font-size: 30px;
+  color: rgb(42, 33, 102);
+  font-weight: 700;
+}
+
+.astrology-li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border: 3px solid #10272b;
+  padding: 10px;
+  cursor: pointer;
+  background: linear-gradient(rgb(211, 211, 215), rgb(225, 247, 249));
+}
+
+.astrology-li:hover {
+  background: linear-gradient(rgb(59, 59, 82), rgb(200, 200, 206));
+}
+
+.astrology-li:hover .astrology-title {
+  color: #d2e4e6;
+}
+
+.astrology-li:hover .astrology-span {
+  color: #137d4c;
+}
+
+.planet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+
+}
+
+.planet-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.group-planet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.select-zn-zodiak {
+  border: 2px solid #225881;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #3EA2F0;
+  color: #19415F;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Merriweather", serif;
+}
+
+.planet-label {
+  font-size: 30px;
+  color: #7C1581;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-calc {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: #6c2567;
+  background-color: transparent;
+  font-size: 26px;
+  font-weight: 700;
+  transition: background-color 500ms linear;
+}
+
+.button-calc:hover {
+  background-color: #5bb1bd;
+}

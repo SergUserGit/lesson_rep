@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация</title>
+</head>
+
+<body>
+  <h1>Регистрация</h1>
+
+  <div>
+    <a href="articles.html">Статьи</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="contacts.html">Контакты</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="page-nav.html">Навигация</a>
+    <a href="../index.html">Главная страница</a>../index.html
+  </div>
+
+  <form action="https://tests.fomenko.top/echo/index.php" method="get">
+    <fieldset>
+      <legend>Фамилия, имя, данные авторизации</legend>
+
+      <div>
+        <label for="surname">Фамилия</label>
+        <input name="surname" id="surname" type="text" placeholder="Фамилия">
+      </div>
+
+      <div>
+        <label for="myname">Имя</label>
+        <input name="myname" id="myname" type="text" placeholder="Имя">
+      </div>
+
+      <div>
+        <label for="foto">Фото</label>
+        <input name="foto" id="foto" type="image" src="../images/fotosend.png" alt="Фото отправки">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email" placeholder="Email">
+      </div>
+
+      <div>
+        <label for="pasw">Пароль</label>
+        <input name="pasw" id="pasw" type="password" placeholder="Пароль">
+      </div>
+
+      <div>
+        <label for="adsite">Адрес сайта</label>
+        <input name="adsite" id="adsite" type="url" placeholder="Адрес сайта" value="https://mysite.name">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Выберите пол</legend>
+      <div>
+        <label for="rad1">Мужской</label>
+        <input name="rad" id="rad1" type="radio" value="Мужской">
+      </div>
+      <div>
+        <label for="rad2">Женский</label>
+        <input name="rad" id="rad2" type="radio" value="Женский">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Укажите дату рождения</legend>
+      <div>
+        <label for="datebith">Дата рождения</label>
+        <input name="datebith" id="datebith" type="date">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Выберите кухни мира</legend>
+      <div>
+        <label for="ukrainian">Украинская</label>
+        <input name="ukrainian" id="ukrainian" type="checkbox" value="ukrainian">
+      </div>
+      <div>
+        <label for="italian">Итальянская</label>
+        <input name="italian" id="italian" type="checkbox" value="italian">
+      </div>
+      <div>
+        <label for="french">Французкая</label>
+        <input name="french" id="french" type="checkbox" value="french">
+      </div>
+      <div>
+        <label for="greek">Греческая</label>
+        <input name="greek" id="greek" type="checkbox" value="greek">
+      </div>
+      <div>
+        <label for="japanese">Японская</label>
+        <input name="japanese" id="japanese" type="checkbox" value="japanese">
+      </div>
+      <div>
+        <label for="spanish">Испанская</label>
+        <input name="spanish" id="spanish" type="checkbox" value="spanish">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Информация о себе</legend>
+      <div>
+        <label for="mytext">Введите свои данные</label>
+        <textarea name="textinform" id="mytext" cols="30" rows="10"></textarea>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Кнопки управления</legend>
+      <div>
+        <button type="submit">Зарегистрироваться</button>
+      </div>
+      <div>
+        <button type="reset">Очистить форму</button>
+      </div>
+    </fieldset>
+  </form>
+
+  <footer>&#169;</footer>
+</body>
+
+</html>
