@@ -208,6 +208,27 @@
   font-style: italic;
 }
 
+.anchors_list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.anchor_ref {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #626422;
+  border: 3px solid #83862E;
+  padding: 10px;
+  background-color: #EFF553;
+}
+
+.anchor_ref:hover {
+  color: #A5A831;
+}
+
 .nav_ref {
   text-decoration: none;
   font-size: 24px;
