@@ -130,6 +130,28 @@
   background-color: #2f3a3b;
 }
 
+.contacts_list {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.contact_ref {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(88, 87, 85);
+  border: 3px solid #0e4662;
+  padding: 10px;
+  background-color: #c1e1d2;
+  transition: color 500ms linear, background-color 500ms linear;
+}
+
+.contact_ref:hover {
+  color: rgb(40, 115, 51);
+  background-color: #ecf5f6;
+}
+
 .articles_ref:hover {
   color: rgb(73, 77, 135);
   background-color: #9fadae;
@@ -138,6 +160,74 @@
 .astrology-title {
   color: rgb(187, 58, 159);
   margin: 0;
+}
+
+.gallery_list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery_ref {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #64315F;
+  border: 3px solid #86427F;
+  padding: 10px;
+  background-color: #F477E8;
+  transition: color 500ms linear, background-color 500ms linear;
+}
+
+.navigation_list {
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border: 3px solid #223564;
+  padding: 10px;
+  background-color: #5481F5;
+  transition: background-color 500ms linear;
+}
+
+.navigation_list:hover {
+  background-color: #2E4786;
+}
+
+#navipage {
+  color: #5B45CA;
+  cursor: pointer;
+  text-align: center;
+  transition: letter-spacing 500ms linear, color 500ms linear, font-style 500ms linear;
+}
+
+#navipage:hover {
+  letter-spacing: 5px;
+  color: #6A50EC;
+  font-style: italic;
+}
+
+.nav_ref {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #266462;
+  border: 3px solid #338684;
+  padding: 10px;
+  background-color: #5CF5F1;
+  transition: color 500ms linear, background-color 500ms linear;
+}
+
+.nav_ref:hover {
+  color: #4DCAC6;
+  background-color: #5AECE7;
+}
+
+.gallery_ref:hover {
+  color: #86342A;
+  background-color: #F5604B;
 }
 
 .astrology-span {
