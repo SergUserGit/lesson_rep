@@ -223,10 +223,12 @@
   border: 3px solid #83862E;
   padding: 10px;
   background-color: #EFF553;
+  transition: color 500ms linear, background-color 500ms linear;
 }
 
 .anchor_ref:hover {
   color: #A5A831;
+  background-color: #343431;
 }
 
 .nav_ref {
