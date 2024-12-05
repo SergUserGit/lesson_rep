@@ -232,6 +232,139 @@
   font-size: 22px;
 }
 
+#section1 {
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  color: #17081c;
+  transition: background-color 500ms linear, color 500ms linear, border 500ms linear;
+}
+
+#section1:hover {
+  background-color: #657070;
+  color: #86342A;
+  border: 3px solid #a1b0bc;
+}
+
+.catalog-li {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  transition: gap 500ms linear;
+}
+
+.catalog-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.group_section_one {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.group_ref_one {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4b115c;
+  transition: font-size 500ms linear, color 500ms linear;
+}
+
+.catalog-position {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #312270;
+}
+
+.catalog-li .catalog-position {
+  transition: color 500ms linear,
+    transform 500ms linear,
+    letter-spacing 500ms linear,
+    text-shadow 500ms linear,
+    border 500ms linear,
+    padding 500ms linear,
+    background-color 500ms linear;
+
+}
+
+.catalog-li:hover .catalog-position {
+  color: rgb(180, 168, 168);
+  letter-spacing: 15px;
+  transform: scale(1.1);
+  text-shadow: 2px 2px #0f0202;
+  border: 3px solid #240aa1;
+  padding: 15px;
+  background-color: #c1ced8;
+}
+
+.catalog-li:hover {
+  gap: 100px;
+}
+
+.paragrah-one {
+  padding: 0;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #5481F5;
+  cursor: pointer;
+  /*transition: opacity 500ms linear, line-height 500ms linear;*/
+}
+
+/*.paragrah-one:hover {
+  opacity: 0.5;
+  line-height: 150%;
+}*/
+
+.section_footer_one {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section_footer_one_ref {
+  text-decoration: none;
+  font-weight: 700;
+  color: #2E4786;
+  font-size: 24px;
+  text-transform: uppercase;
+  transition: text-decoration 500ms linear,
+    transform 500ms linear,
+    background-color 500ms linear,
+    padding 500ms linear,
+    opacity 500ms linear,
+    color 500ms linear;
+}
+
+.section_footer_one_ref:hover {
+  text-decoration: underline;
+  transform-origin: 0 0;
+  transform: rotate(-5deg);
+  background-color: green;
+  padding: 10px;
+  opacity: 0.8;
+  color: #4f2f24;
+}
+
+
+
+.paragrah-one::selection {
+  color: rgb(76, 64, 64);
+  background: #5CF5F1;
+}
+
+
+.group_ref_one:hover {
+  font-size: 22px;
+  color: #c0afc1;
+}
+
 .nav_ref {
   text-decoration: none;
   font-size: 24px;
