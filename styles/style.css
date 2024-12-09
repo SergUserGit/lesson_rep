@@ -122,12 +122,13 @@
   border: 3px solid #a0a622;
   padding: 15px;
   background: #5f989e;
-  transition: color 500ms linear, background-color 500ms linear;
+  transition: color 500ms linear, background-color 500ms linear, text-shadow 500ms linear;
 }
 
 .catalogs_ref:hover {
   color: rgb(149, 157, 181);
   background-color: #2f3a3b;
+  text-shadow: 2px 2px #624c4c;
 }
 
 .contacts_list {
@@ -484,4 +485,465 @@
 
 .button-calc:hover {
   background-color: #5bb1bd;
+}
+
+.list-aside {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ref-aside {
+  text-decoration: none;
+  color: #57b0b0;
+  font-size: 24px;
+  font-weight: 700;
+  transition: color 500ms linear;
+}
+
+.ref-aside:hover {
+  color: #3a4050;
+}
+
+.aside-main {
+  cursor: pointer;
+  background-color: #1c2d37;
+  width: 5500px;
+  border: 15px double #513759;
+  padding: 20px;
+  transition: background-color 500ms linear;
+  /* transform: translateY(15%);*/
+}
+
+.aside-main:hover {
+  background-color: #031625;
+}
+
+.main-aside-section {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.aside-title {
+  margin: 0;
+  color: #4b115c;
+  font-size: 36px;
+  align-self: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* position: absolute;
+  left: 20%;*/
+}
+
+.paragraph-aside {
+
+  transition: color 500ms linear;
+
+  font-size: 15px;
+  color: #225881;
+  cursor: pointer;
+}
+
+.paragraph-aside:hover {
+  color: #81888e;
+}
+
+.list_registration {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.ref_registration {
+  transition: color 500ms linear;
+
+  text-decoration: none;
+  color: #252220;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ref_registration:hover {
+  color: #bebbb8;
+}
+
+.title_registration {
+
+  transition: color 500ms linear;
+
+  text-align: center;
+  cursor: pointer;
+  color: #4b115c;
+}
+
+.title_registration:hover {
+  color: #514954;
+}
+
+.fieldset_name {
+  padding: 15px;
+}
+
+.legend_name {
+
+  transition: color 500ms linear;
+
+  color: #283b58;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.legend_name:hover {
+  color: #b6b9bb;
+}
+
+.group_surname {
+  margin-bottom: 10px;
+}
+
+.lable_surname {
+  margin-right: 15px;
+  font-size: 24px;
+}
+
+.label_name {
+  margin-right: 47px;
+  font-size: 24px;
+}
+
+.input_surname {
+
+  transition: color 500ms linear, background-color 500ms linear;
+
+  background-color: #0e2f35;
+  color: #a8adad;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.input_surname:hover {
+  color: #a8b8e0;
+  background-color: #f7f5f4;
+}
+
+.field_kitchen {
+
+  transition: border 500ms linear;
+
+  cursor: pointer;
+  padding: 10px;
+  border: 4px double #8fa2ad;
+
+  margin-bottom: 20px;
+}
+
+.field_kitchen:hover {
+  border: 4px double #336372;
+}
+
+.field_kitchen:hover .field_legend_kitchen {
+  color: rgb(94, 83, 83);
+}
+
+.field_legend_kitchen {
+
+  transition: text-decoration 500ms linear, color 500ms linear;
+
+  color: #796eb5;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.field_legend_kitchen:hover {
+  text-decoration: underline;
+  color: #5B45CA;
+}
+
+.label_kitchen {
+
+  transition: color 500ms linear;
+
+  color: #702259;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.label_kitchen:hover {
+  color: #d5d7dd;
+}
+
+.group_kitchen {
+  margin-bottom: 10px;
+}
+
+.button_management {
+
+  transition: border 500ms linear;
+
+  padding: 15px;
+  border: 5px double #1c1d1d;
+  cursor: pointer;
+}
+
+.button_management:hover {
+  background: linear-gradient(#e0dada, #6c72ae);
+  border: none;
+}
+
+.group-button-registration {
+  margin-bottom: 10px;
+}
+
+.button-registration {
+
+  transition: color 500ms linear, background-color 500ms linear;
+
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  letter-spacing: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: coral;
+  background-color: #ebbbab;
+}
+
+.button-registration:hover {
+  color: rgb(216, 204, 200);
+  background-color: #1b0a05;
+}
+
+.button-clear-form {
+
+  transition: color 500ms linear, background-color 500ms linear;
+
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  letter-spacing: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  color: rgb(241, 239, 234);
+  background-color: #2a1f1b;
+}
+
+.button-clear-form:hover {
+  color: #2a1f1b;
+  background-color: rgb(241, 239, 234);
+}
+
+.legend_buttin_managment {
+  color: #631c29;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.button_management .legend_buttin_managment {
+  transition: color 500ms linear;
+}
+
+.button_management:hover .legend_buttin_managment {
+  color: rgb(17, 121, 132);
+}
+
+.menu_button {
+
+  transition: background-color 500ms linear;
+
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+  background-color: #053f46;
+  margin-bottom: 25px;
+}
+
+.menu_button:hover {
+  background-color: #2883c8;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  background-color: #e2eaea;
+  padding: 10px;
+  width: 120px;
+}
+
+.span-menu {
+
+  transition: color 500ms linear;
+
+  color: rgb(90, 90, 87);
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.span-menu:hover {
+  color: #0f1a35;
+}
+
+.close-button {
+
+  transition: color 500ms linear, background-color 500ms linear;
+
+  color: #312270;
+  background-color: #a2bdc4;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+.close-button:hover {
+  color: #46615f;
+  background-color: #c1bac3;
+}
+
+.form-menu {
+
+  position: absolute;
+
+  transform: translateY(-15%);
+
+  transition: background-color 500ms linear;
+
+  visibility: hidden;
+  padding: 15px;
+  background-color: #282807;
+  width: 150px;
+  cursor: pointer;
+}
+
+.form-menu:hover {
+  background-color: #414347;
+}
+
+.form_on_close {
+  transform: scale(1.1);
+}
+
+.footer {
+  position: relative;
+}
+
+.statement_field {
+
+  transition: border 500ms linear;
+
+  padding: 15px;
+  border: 5px double #5c1d40;
+  cursor: pointer;
+  margin-bottom: 15px;
+
+}
+
+.statement_field:hover {
+  border: 5px double #9b9397;
+}
+
+.statement_legend {
+  color: #617bbc;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.statement_field .statement_legend {
+  transition: color 500ms linear;
+}
+
+.statement_field:hover .statement_legend {
+  color: #62756c;
+}
+
+.statement_value {
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.statement_label {
+
+  transition: color 500ms linear;
+
+  color: rgb(184, 121, 121);
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.statement_label:hover {
+  color: rgb(161, 87, 87);
+}
+
+.date_birth_fieldset {
+
+  transition: border 500ms linear;
+
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 5px double #db8667;
+  cursor: pointer;
+}
+
+.date_birth_fieldset:hover {
+  border: 5px double #966a5c;
+}
+
+.date_birth_legend {
+  color: #064f65;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.date_birth_fieldset .date_birth_legend {
+  transition: color 500ms linear;
+}
+
+.date_birth_fieldset:hover .date_birth_legend {
+  color: rgb(174, 185, 167);
+}
+
+.date_birth_label {
+
+  transition: color 500ms linear;
+
+  color: #a7bd00;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.date_birth_label:hover {
+  color: #6f7b0f;
+}
+
+.date_birth_group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }

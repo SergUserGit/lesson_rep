@@ -6,32 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Регистрация</title>
+  <link rel="stylesheet" href="../styles/style.css">
 </head>
 
 <body>
-  <h1>Регистрация</h1>
+  <h1 class="title_registration">Регистрация</h1>
 
-  <div>
-    <a href="articles.html">Статьи</a>
-    <a href="catalog.html">Каталог</a>
-    <a href="contacts.html">Контакты</a>
-    <a href="gallery.html">Галерея</a>
-    <a href="page-nav.html">Навигация</a>
-    <a href="../index.html">Главная страница</a>../index.html
+  <div class="list_registration">
+    <a class="ref_registration" href="articles.html">Статьи</a>
+    <a class="ref_registration" href="catalog.html">Каталог</a>
+    <a class="ref_registration" href="contacts.html">Контакты</a>
+    <a class="ref_registration" href="gallery.html">Галерея</a>
+    <a class="ref_registration" href="page-nav.html">Навигация</a>
+    <a class="ref_registration" href="../index.html">Главная страница</a>
   </div>
 
   <form action="https://tests.fomenko.top/echo/index.php" method="get">
-    <fieldset>
-      <legend>Фамилия, имя, данные авторизации</legend>
+    <fieldset class="fieldset_name">
+      <legend class="legend_name">Фамилия, имя, данные авторизации</legend>
 
-      <div>
-        <label for="surname">Фамилия</label>
-        <input name="surname" id="surname" type="text" placeholder="Фамилия">
+      <div class="group_surname">
+        <label class="lable_surname" for="surname">Фамилия</label>
+        <input class="input_surname" name="surname" id="surname" type="text" placeholder="Фамилия">
       </div>
 
       <div>
-        <label for="myname">Имя</label>
-        <input name="myname" id="myname" type="text" placeholder="Имя">
+        <label class="label_name" for="myname">Имя</label>
+        <input class="input_surname" name="myname" id="myname" type="text" placeholder="Имя">
       </div>
 
       <div>
@@ -55,50 +56,50 @@
       </div>
     </fieldset>
 
-    <fieldset>
-      <legend>Выберите пол</legend>
-      <div>
-        <label for="rad1">Мужской</label>
+    <fieldset class="statement_field">
+      <legend class="statement_legend">Выберите пол</legend>
+      <div class="statement_value">
+        <label class="statement_label" for="rad1">Мужской</label>
         <input name="rad" id="rad1" type="radio" value="Мужской">
       </div>
-      <div>
-        <label for="rad2">Женский</label>
+      <div class="statement_value">
+        <label class="statement_label" for="rad2">Женский</label>
         <input name="rad" id="rad2" type="radio" value="Женский">
       </div>
     </fieldset>
 
-    <fieldset>
-      <legend>Укажите дату рождения</legend>
-      <div>
-        <label for="datebith">Дата рождения</label>
+    <fieldset class="date_birth_fieldset">
+      <legend class="date_birth_legend">Укажите дату рождения</legend>
+      <div class="date_birth_group">
+        <label class="date_birth_label" for="datebith">Дата рождения</label>
         <input name="datebith" id="datebith" type="date">
       </div>
     </fieldset>
 
-    <fieldset>
-      <legend>Выберите кухни мира</legend>
-      <div>
-        <label for="ukrainian">Украинская</label>
+    <fieldset class="field_kitchen">
+      <legend class="field_legend_kitchen">Выберите кухни мира</legend>
+      <div class="group_kitchen">
+        <label class="label_kitchen" for="ukrainian">Украинская</label>
         <input name="ukrainian" id="ukrainian" type="checkbox" value="ukrainian">
       </div>
-      <div>
-        <label for="italian">Итальянская</label>
+      <div class="group_kitchen">
+        <label class="label_kitchen" for="italian">Итальянская</label>
         <input name="italian" id="italian" type="checkbox" value="italian">
       </div>
-      <div>
-        <label for="french">Французкая</label>
+      <div class="group_kitchen">
+        <label class="label_kitchen" for="french">Французкая</label>
         <input name="french" id="french" type="checkbox" value="french">
       </div>
-      <div>
-        <label for="greek">Греческая</label>
+      <div class="group_kitchen">
+        <label class="label_kitchen" for="greek">Греческая</label>
         <input name="greek" id="greek" type="checkbox" value="greek">
       </div>
-      <div>
-        <label for="japanese">Японская</label>
+      <div class="group_kitchen">
+        <label class="label_kitchen" for="japanese">Японская</label>
         <input name="japanese" id="japanese" type="checkbox" value="japanese">
       </div>
       <div>
-        <label for="spanish">Испанская</label>
+        <label class="label_kitchen" for="spanish">Испанская</label>
         <input name="spanish" id="spanish" type="checkbox" value="spanish">
       </div>
     </fieldset>
@@ -111,13 +112,13 @@
       </div>
     </fieldset>
 
-    <fieldset>
-      <legend>Кнопки управления</legend>
-      <div>
-        <button type="submit">Зарегистрироваться</button>
+    <fieldset class="button_management">
+      <legend class="legend_buttin_managment">Кнопки управления</legend>
+      <div class="group-button-registration">
+        <button class="button-registration" type="submit">Зарегистрироваться</button>
       </div>
       <div>
-        <button type="reset">Очистить форму</button>
+        <button class="button-clear-form" type="reset">Очистить форму</button>
       </div>
     </fieldset>
   </form>
