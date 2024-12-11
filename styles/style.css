@@ -590,7 +590,12 @@
 }
 
 .fieldset_name {
+
+  border: 5px double #91c9c5;
+
   padding: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .legend_name {
@@ -699,6 +704,8 @@
   padding: 15px;
   border: 5px double #1c1d1d;
   cursor: pointer;
+
+  margin-bottom: 15px;
 }
 
 .button_management:hover {
@@ -946,4 +953,191 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.date_birth_input {
+
+  transition: background-color 500ms linear, color 500ms linear, border 500ms linear;
+
+  border: 5px double #60c319;
+  background-color: #dfe69d;
+  padding: 10px;
+  cursor: pointer;
+  color: #11605d;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.date_birth_input:hover {
+  background-color: #494b36;
+  color: #d3d0de;
+  border: 5px double #1f2b16;
+}
+
+.field_information_for_you {
+
+  transition: border 500ms linear;
+
+  border: 5px double #7f279f;
+  cursor: pointer;
+
+  margin-bottom: 20px;
+}
+
+.field_information_for_you:hover {
+  border: 5px double #068257;
+}
+
+.legend_information_for_you {
+  color: rgb(194, 174, 161);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.field_information_for_you .legend_information_for_you {
+  transition: color 500ms linear;
+}
+
+.field_information_for_you:hover .legend_information_for_you {
+  color: rgb(151, 104, 72);
+}
+
+.field_information_for_you .lable_information_for_you {
+  transition: color 500ms linear;
+}
+
+.field_information_for_you:hover .lable_information_for_you {
+  color: #251b3e;
+}
+
+.group_information_for_you {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lable_information_for_you {
+  color: #a7a75d;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.textarea_information_for_you {
+  border: 5px double #1ed07d;
+  cursor: pointer;
+  padding: 10px;
+  color: #240aa1;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.field_information_for_you .textarea_information_for_you {
+  transition: border 500ms linear;
+}
+
+.field_information_for_you:hover .textarea_information_for_you {
+  border: 5px double #aac497;
+}
+
+.group_email {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.group_password {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.group_name {
+  display: flex;
+  gap: 20px;
+}
+
+.group_photo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-list-astrology {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-ref-astrology {
+
+  transition: color 500ms linear, border 500ms linear, background-color 500ms linear;
+
+  color: #cfb9c5;
+  font-size: 24px;
+  font-weight: 700;
+  border: 5px double #96bcd0;
+  padding: 10px;
+  background-color: #28292b;
+}
+
+.nav-astrology {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.nav-ref-astrology:hover {
+  color: #634455;
+  border: 5px double #394f5b;
+  background-color: #aabfea;
+}
+
+.description-li {
+
+  transition: color 500ms linear,
+    font-size 500ms linear,
+    transform 500ms linear,
+    text-shadow 500ms linear,
+    letter-spacing 500ms linear;
+
+  color: #450968;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.description-li:hover {
+  color: #a3a3b8;
+  font-size: 18px;
+  transform: skew(3deg, 3deg);
+  text-shadow: 1px 1px 2px rgb(11, 64, 68);
+  letter-spacing: 3px;
+}
+
+.description-ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-title-two {
+
+  transition: margin-left 500ms linear,
+    letter-spacing 500ms linear,
+    text-shadow 500ms linear,
+    transform 500ms linear;
+  cursor: pointer;
+
+}
+
+.gallery-title-two:hover {
+  margin-left: 120px;
+  letter-spacing: 2px;
+  transform: scale(1.1);
+  text-shadow: 2px 2px 2px rgb(7, 74, 74);
 }

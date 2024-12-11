@@ -30,29 +30,30 @@
         <input class="input_surname" name="surname" id="surname" type="text" placeholder="Фамилия">
       </div>
 
-      <div>
+      <div class="group_name">
         <label class="label_name" for="myname">Имя</label>
         <input class="input_surname" name="myname" id="myname" type="text" placeholder="Имя">
       </div>
 
-      <div>
-        <label for="foto">Фото</label>
+      <div class="group_photo">
+        <label class="label_name" for="foto">Фото</label>
         <input name="foto" id="foto" type="image" src="../images/fotosend.png" alt="Фото отправки">
       </div>
 
-      <div>
-        <label for="email">Email</label>
-        <input name="email" id="email" type="email" placeholder="Email">
+      <div class="group_email">
+        <label class="lable_surname" for="email">Email</label>
+        <input class="input_surname" name="email" id="email" type="email" placeholder="Email">
+      </div>
+
+      <div class="group_password">
+        <label class="lable_surname" for="pasw">Пароль</label>
+        <input class="input_surname" name="pasw" id="pasw" type="password" placeholder="Пароль">
       </div>
 
       <div>
-        <label for="pasw">Пароль</label>
-        <input name="pasw" id="pasw" type="password" placeholder="Пароль">
-      </div>
-
-      <div>
-        <label for="adsite">Адрес сайта</label>
-        <input name="adsite" id="adsite" type="url" placeholder="Адрес сайта" value="https://mysite.name">
+        <label class="lable_surname" for="adsite">Адрес сайта</label>
+        <input class="input_surname" name="adsite" id="adsite" type="url" placeholder="Адрес сайта"
+          value="https://mysite.name">
       </div>
     </fieldset>
 
@@ -72,7 +73,7 @@
       <legend class="date_birth_legend">Укажите дату рождения</legend>
       <div class="date_birth_group">
         <label class="date_birth_label" for="datebith">Дата рождения</label>
-        <input name="datebith" id="datebith" type="date">
+        <input class="date_birth_input" name="datebith" id="datebith" type="date">
       </div>
     </fieldset>
 
@@ -104,11 +105,11 @@
       </div>
     </fieldset>
 
-    <fieldset>
-      <legend>Информация о себе</legend>
-      <div>
-        <label for="mytext">Введите свои данные</label>
-        <textarea name="textinform" id="mytext" cols="30" rows="10"></textarea>
+    <fieldset class="field_information_for_you">
+      <legend class="legend_information_for_you">Информация о себе</legend>
+      <div class="group_information_for_you">
+        <label class="lable_information_for_you" for="mytext">Введите свои данные</label>
+        <textarea class="textarea_information_for_you" name="textinform" id="mytext" cols="30" rows="10"></textarea>
       </div>
     </fieldset>
 
