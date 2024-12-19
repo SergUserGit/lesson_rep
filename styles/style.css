@@ -1,6 +1,25 @@
 .gallery_img {
   width: 250px;
   height: 250px;
+  animation: 4500ms infinite alternate galery_img_animation;
+  animation-timing-function: cubic-bezier(0.22, 0.99, 0.11, 0.88);
+}
+
+@keyframes galery_img_animation {
+  to {
+    width: 250px;
+    height: 250px;
+  }
+
+  from {
+    width: 100px;
+    height: 100px;
+  }
+
+  75% {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .gallery-li {
@@ -27,6 +46,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  animation-name: galery_animation;
+  animation-duration: 5500ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.345, 0.715, 0.30, 0.587);
 }
 
 .title-ref:hover {
@@ -112,6 +137,34 @@
   display: flex;
   justify-content: center;
   gap: 15px;
+  animation-name: catlogs_list_animate;
+  animation-duration: 3500ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  padding: 10px;
+}
+
+@keyframes catlogs_list_animate {
+  from {
+    gap: 15px;
+    background: linear-gradient(#9a9292, #5d6297);
+  }
+
+  to {
+    gap: 45px;
+    background: linear-gradient(#a4a0a0, #4b5080);
+  }
+
+  50% {
+    gap: 25px;
+    background: linear-gradient(#958f8f, #3d3e48);
+  }
+
+  75% {
+    gap: 32px;
+    background: linear-gradient(#c9b5b5, #8185b8);
+  }
 }
 
 .catalogs_ref {
@@ -551,6 +604,27 @@
   font-size: 15px;
   color: #225881;
   cursor: pointer;
+
+  animation-name: parag_animate;
+  animation-duration: 5500ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+
+@keyframes parag_animate {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 20%;
+  }
+
+  75% {
+    margin-left: 25%;
+  }
 }
 
 .paragraph-aside:hover {
@@ -1133,6 +1207,37 @@
     transform 500ms linear;
   cursor: pointer;
 
+  animation-name: title-move;
+  animation-duration: 6000ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+
+}
+
+@keyframes title-move {
+  from {
+    margin-left: 50%;
+    color: #234736;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px rgb(8, 13, 34);
+    transform: skew(-3deg, 3deg);
+  }
+
+  to {
+    margin-left: 0%;
+    color: #dce6e5;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 2px rgb(71, 85, 143);
+    transform: skew(0deg, 0deg);
+  }
+
+  50% {
+    color: #b0993b;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 2px rgb(107, 161, 160);
+    transform: skew(-1deg, -1deg);
+  }
 }
 
 .gallery-title-two:hover {
@@ -1140,4 +1245,117 @@
   letter-spacing: 2px;
   transform: scale(1.1);
   text-shadow: 2px 2px 2px rgb(7, 74, 74);
+}
+
+/*.ref_article {
+    animation-name: my_aniation;
+  animation-duration: 2500ms;
+  animation-iteration-count: infinite;
+}*/
+
+/*.gallery-li-one {
+  animation-name: galery_animation;
+  animation-duration: 4500ms;
+  animation-iteration-count: infinite;
+}
+
+.gallery-li-two {
+  animation-name: galery_animation_two;
+  animation-duration: 4500ms;
+  animation-iteration-count: infinite;
+}*/
+
+@keyframes my_aniation {
+  from {
+    background-color: #7e8206;
+    color: #233250;
+  }
+
+  to {
+    background-color: #c9ddd6;
+    color: #031112;
+  }
+
+  75% {
+    background-color: #c9b4a6;
+    color: #8d450b;
+  }
+}
+
+@keyframes galery_animation {
+  from {
+    gap: 25px;
+    background-color: #3bad85;
+    border: 5px double #072f1c;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(132, 102, 102);
+  }
+
+  to {
+    gap: 65px;
+    background-color: #b8cb28;
+    border: 5px double #69e0a9;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px rgb(72, 79, 158);
+  }
+
+  75% {
+    gap: 50px;
+    background-color: #ecefdb;
+    border: 5px double #838e89;
+    border-radius: 4px;
+    box-shadow: 10px 5px 5px rgb(147, 158, 72);
+  }
+}
+
+@keyframes galery_animation_two {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+
+  75% {
+    margin-left: 25%;
+  }
+}
+
+/*body {
+  overflow: hidden;
+}*/
+
+.hero-astrology {
+  cursor: pointer;
+  width: 1000px;
+  height: 235px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-image: url("../images/background_fone.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  animation-name: hero_astr_animate;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-direction: alternate;
+}
+
+@keyframes hero_astr_animate {
+  from {
+    background-image: url("../images/background_fone.jpg");
+  }
+
+  to {
+    background-image: url("../images/background_fone_two.jpg");
+  }
+
+  75% {
+    background-image: url("../images/background_fone_three.jpg");
+  }
+
 }
